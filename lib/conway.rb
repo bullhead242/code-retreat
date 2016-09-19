@@ -24,6 +24,8 @@ class Cell
     @column
   end
 
+
+
   # count live neighbors (assume access to a neighbors array)
   def count_live_neighbors
     neighbors.filter().reduce(:+)
